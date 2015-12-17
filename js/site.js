@@ -27,9 +27,6 @@ myApp.controller('myCntl', function($scope, $http) {
 		$('#city_selector').change(function() {
 			var citySelected = $(this).val();
 			var backgroundImage = $scope.cities[citySelected].image;
-
-			console.log('backgroundImage = ' + backgroundImage);
-
 			addBackgroundImage(backgroundImage);
 			$scope.citySelected = citySelected;
 			$scope.values = $scope.cities[citySelected];
