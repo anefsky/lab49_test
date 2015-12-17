@@ -1,6 +1,6 @@
 var getToday = function() {
 		var date = new Date();
-		return date.getMonth() + '/' + date.getDate();
+		return date.getMonth() + 1 + '/' + date.getDate();
 };
 
 var makeDisplayVisible = function() {	
