@@ -1,0 +1,26 @@
+
+#wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+#display {
+	width: 50%;
+	padding: 25px;
+	border: 1px solid gray;
+}
+select {
+	font-size: 32px;
+	margin: 25px 0;
+}
+#display {
+	visibility: hidden;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+td {
+	width: 100px;
+}
+td:nth-child(2) {
+	text-align: right;
+}
+

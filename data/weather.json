@@ -1,0 +1,40 @@
+{
+	"weather" :
+	{
+		"New York" : {
+			"max_temp" : 60,
+			"min_temp" : 40,
+			"pressure" : 1000,
+			"humidity" : 30,
+			"image" : "images/rain.png"
+		},		
+		"Chicago" : {
+			"max_temp" : 61,
+			"min_temp" : 41,
+			"pressure" : 1001,
+			"humidity" : 31,
+			"image" : "images/sun.gif"
+		},		
+		"Seattle" : {
+			"max_temp" : 62,
+			"min_temp" : 42,
+			"pressure" : 1002,
+			"humidity" : 32,
+			"image" : "images/cloudy.png"
+		},		
+		"Houston" : {
+			"max_temp" : 63,
+			"min_temp" : 43,
+			"pressure" : 1003,
+			"humidity" : 33,
+			"image" : "images/sun.gif"
+		},		
+		"San Diego" : {
+			"max_temp" : 64,
+			"min_temp" : 44,
+			"pressure" : 1004,
+			"humidity" : 34,
+			"image" : "images/rain.png"
+		}		
+	}
+}
